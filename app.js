@@ -6,7 +6,7 @@ app.get("/", (req, res) => res.type('html').send(html));
 
 app.get("/health", (req, res) => { 
 
-  res.sendStatus(200); 
+  res.send('Hello'); 
 
 }); 
 
